@@ -1,9 +1,13 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
 
 function App() {
 return (
-<div className="maincontainer h-[100vh] w-full bg-green-800">
-    <h1 className="text-red-800 text-center text-6xl">Setupp Weatherapp</h1>
-</div>
+<BrowserRouter>
+<Routes>
+      <Route path="/" element={<Home/>} />
+    </Routes>
+</BrowserRouter>
   )
 }
 
