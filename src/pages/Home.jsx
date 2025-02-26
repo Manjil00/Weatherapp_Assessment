@@ -43,16 +43,16 @@ return (
                 </div>
                 
                 ):(
-                    <div className="shgowcaseweather flex w-[90%] h-[400px] rounded-xl">
-                    <div className="wetherleft w-[50%] h-full bg-black p-5 rounded-l-xl flex flex-col justify-center items-center gap-10">
-                    <h1 className='text-white text-3xl lg:text-6xl '>{search}</h1>
-                    <p className='text-white text-base lg:text-3xl '>The weather in {search} is:</p>
-                    <h1 className='text-white text-base lg:text-3xl '>{location.temp} Deg C</h1>
+                    <div className="shgowcaseweather flex justify-center items-center w-[90%] h-auto rounded-xl">
+                    <div className="wetherleft w-[90%] lg:w-[80%] h-auto bg-black p-8 rounded-xl flex flex-col justify-center items-center gap-10">
+                    <h1 className='text-white text-3xl lg:text-6xl'>{search}</h1>
+                    <p className='text-white text-base lg:text-3xl'>The weather in {search} is:</p>
+                    <h1 className='text-white text-base lg:text-3xl'>{location.temp} Deg C</h1>
+                    <h2 className='text-slate-500 text-base lg:text-xl'>Min temp: {location.temp_min}<br/>Max temp:{location.temp_max}</h2>
+                    <h2 className='text-slate-500 text-base lg:text-xl'>Sea level: {location.sea_level}<br/>Humidity:{location.humidity}</h2>
                     </div>
     
-                    <div className="weatherright  w-[50%] h-full rounded-r-xl bg-yellow-500 flex flex-col justify-center items-center gap-5">
-    
-                    </div>
+                    
                 </div>
                 )
             }
