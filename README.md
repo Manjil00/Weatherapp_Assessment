@@ -18,10 +18,10 @@ The Weather App developed in React.js with Vite and Tailwind CSS is a simple Wea
 
 ## Screenshots
 
-![App Screenshot](/weatherapp/public/screenshots/ktm.png )
-![App Screenshot](/weatherapp/public/screenshots/pkr.png )
-![App Screenshot](/weatherapp/public/screenshots/nodata.png )
-![App Screenshot](/weatherapp/public/screenshots/bronx.png )
+![App Screenshot](/public/screenshots/ktm.png )
+![App Screenshot](/public/screenshots/pkr.png )
+![App Screenshot](/public/screenshots/nodata.png )
+![App Screenshot](/public/screenshots/bronx.png )
 
 
 
